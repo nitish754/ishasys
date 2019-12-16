@@ -37,6 +37,10 @@ Route::get('contact', function(){
         return view('website.contact');
 });
 
+
+Route::get('product', function(){
+    return view('website.product');
+});
 //
 
 // adding some comment in route branch git 
