@@ -13,7 +13,7 @@
           <img class="image" src="{{ asset('image/logo.png') }}" data2x="https://66.media.tumblr.com/avatar_2dcdc7cf5b47_128.png" alt="Branding" />
         </div>
         <div class="title">
-          <h3>Fixed</h3>
+          <h3>Company</h3>
         </div>
       </a>
     </div>
