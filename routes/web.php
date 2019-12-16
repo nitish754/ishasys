@@ -11,10 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Route::get('/',function(){
     return view('website.home');
 });
@@ -41,11 +37,6 @@ Route::get('contact', function(){
 Route::get('product', function(){
     return view('website.product');
 });
-//
 
-// adding some comment in route branch git 
-
-
-// dont go on staging 
 
 
