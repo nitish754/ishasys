@@ -19,18 +19,22 @@ Route::get('/',function(){
     return view('website.home');
 });
 
-Route::get('/about',function(){
+Route::get('about',function(){
     return view('website.about');
 });
 
 
 
-Route::get('/services',function(){
+Route::get('services',function(){
     return view('website.service');
 });
 
-Route::get('/protfolio', function(){
+Route::get('protfolio', function(){
     return view('website.portfolio');
+});
+
+Route::get('contact', function(){
+        return view('website.contact');
 });
 
 //
