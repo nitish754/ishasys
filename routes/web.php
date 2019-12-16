@@ -29,5 +29,10 @@ Route::get('/services',function(){
     return view('website.service');
 });
 
+Route::get('/protfolio', function(){
+    return view('website.portfolio');
+});
+
+//
 
 
