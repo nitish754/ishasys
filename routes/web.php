@@ -23,3 +23,11 @@ Route::get('/about',function(){
     return view('website.about');
 });
 
+
+
+Route::get('/services',function(){
+    return view('website.service');
+});
+
+
+
