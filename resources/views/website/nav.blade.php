@@ -19,20 +19,22 @@
     </div>
     <div class="body">
       <ul>
-        <li class="home"><a href="#">Home</a></li>
-        <li class="page"><a href="#">Portfolio</a></li>
-        <li class="blog active dropdown"><a href="#">Blog</a>
+        <li class="home active"><a href="#">Home</a></li>
+        <li class="page"><a href="#">About</a></li>
+        <li class="page"><a href="#">Services</a></li>
+
+        <li class="blog dropdown"><a href="#">Products</a>
           <span class="selector"></span>
-          <ul>
+          <ul style="background: #000;">
             <li><a href="#">Latest</a></li>
             <li><a href="#">Popular</a></li>
             <li class="dropdown"><a href="#">Categories</a>
               <span class="selector"></span>
-              <ul>
+              <ul style="background:#000">
                 <li><a href="#">HTML</a></li>
                 <li class="dropdown"><a href="#">CSS</a>
                   <span class="selector"></span>
-                  <ul>
+                  <ul style="background:#000">
                     <li><a href="#">Something really long like a sentence or something!?</a></li>
                     <li><a href="#">CSS3</a></li>
                   </ul>
@@ -40,7 +42,7 @@
                 <li><a href="#">JavaScript</a></li>
                 <li class="dropdown"><a href="#">Others</a>
                   <span class="selector"></span>
-                  <ul>
+                  <ul style="background:#000">
                     <li><a href="#">Bootstrap</a></li>
                     <li><a href="#">JQuery</a></li>
                   </ul>
@@ -49,8 +51,10 @@
             </li>
           </ul>
         </li>
+        <li class="page"><a href="#">Portfolio</a></li>
+
         <li class="page"><a href="#">Contacts</a></li>
-        <li class="more dropdown"><a href="#"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+        <!-- <li class="more dropdown"><a href="#"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
           <span class="selector"></span>
           <ul>
             <li><a href="#">RSS</a></li>
@@ -61,7 +65,7 @@
               </form>
             </li>
           </ul>
-        </li>
+        </li> -->
       </ul>
     </div>
     <div class="toggle">

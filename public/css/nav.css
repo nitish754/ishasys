@@ -1,11 +1,9 @@
-/* General */
-@import 'https://fonts.googleapis.com/css?family=Comfortaa:400,700';
-html, body { /* height: 100%; */ }
-body { background: #f5f5f5; position: relative; }
+
+
 
 /* Navbar */
-.better-nav { word-wrap: break-word; background: #fff; height: 100px; margin-bottom: 30px; } /* Set the height of the navbar */
-.better-nav a { color: #000; opacity: 0.6; }
+.better-nav { word-wrap: break-word; background: #1B343B; height: 100px; margin-bottom: 30px; } /* Set the height of the navbar */
+.better-nav a { color: #fff; opacity: 0.6; }
 .better-nav a:hover,
 .better-nav a:focus { opacity: 1; }
 .better-nav .container { height: 100%; }
